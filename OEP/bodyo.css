@@ -1,0 +1,22 @@
+.imgcont{
+    display: flex;
+    justify-content:space-between ;
+}
+.human{
+    width: 550px;
+    height: 1000px;
+}
+.ai{
+    width: 550px;
+    height: 1000px;
+}
+.imgcont {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+.imgcont img {
+    transition: transform 1s ease;
+}
